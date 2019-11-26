@@ -25,7 +25,7 @@ public abstract class Bebida {
 
     @Override
     public String toString() {
-        return getClase() +","+getDetalle()+",azúcar x"+getAzucar()+",leche x"+getLeche();
+        return getClase() +" = "+getDetalle()+", con "+getAzucar()+" de azúcar"+" y con "+getLeche()+" de leche";
     }
    
     public abstract String getDetalle();
